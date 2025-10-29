@@ -1,5 +1,5 @@
 # x402 Project - b402.ai Integration
-
+# by @hasanarofid
 ![x402 Logo](https://img.shields.io/badge/x402-Protocol-blue)
 ![b402.ai](https://img.shields.io/badge/b402.ai-Backend-green)
 ![Facilitator](https://img.shields.io/badge/Facilitator-Frontend-orange)
