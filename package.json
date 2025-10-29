@@ -1,0 +1,20 @@
+{
+  "name": "x402-project",
+  "version": "1.0.0",
+  "description": "Proyek x402 dengan Backend dan Frontend menggunakan protokol b402.ai",
+  "scripts": {
+    "install:all": "cd backend && npm install && cd ../frontend && npm install",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm start",
+    "dev": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\"",
+    "build:frontend": "cd frontend && npm run build",
+    "start:backend": "cd backend && npm start"
+  },
+  "keywords": ["x402", "b402", "blockchain", "payment", "AI"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
+
